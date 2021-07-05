@@ -19,6 +19,9 @@ body{
 .orange-color{
     color: orangered;
 }
+.first-h1{
+    letter-spacing: 5px;
+}
 h1{
     font-size: 50px;
 }
@@ -42,6 +45,10 @@ h1{
 }
 .dream h3, .experience h3{
     font-size: 20px;
+    letter-spacing: 3px;
+}
+.dream h2{
+    letter-spacing: 4px;
 }
 .dream{
     background-image: url("images/dream-bg.png");
@@ -67,7 +74,13 @@ h1{
     padding-right: 5%;
     box-shadow: 10px 10px 40px grey;
     margin-bottom: 150px;
- 
+    border-radius: 10px;
+}
+.experience-div1:hover{
+    box-shadow: 5px 5px 20px skyblue;
+}
+.experience-div2:hover{
+    box-shadow: 5px 5px 20px skyblue;
 }
 .experience p{
     padding-bottom: 30px;
@@ -81,4 +94,13 @@ h1{
     border-left: 10px solid;
     border-image: linear-gradient(cyan, skyblue);
     border-image-slice: 1;
+}
+/*Footer Section*/
+footer{
+    text-align: center;
+}
+footer p{
+    font-size: 20px;
+    margin-bottom: 50px;
+    letter-spacing: 0.5px;
 }
