@@ -30,21 +30,55 @@ h1{
     border-radius: 5px;
     font-weight: 600;
 }
-.first-div p, .dream p{
+.first-div p, .dream p, .experience p{
     font-size: 1.1rem;
     font-weight: 300;
     margin-bottom: 30px;
     text-align: justify;
 }
 /* Dream Big section*/
-.dream h2{
-    font-size: 40px;
+.dream h2, .experience h2{
+    font-size: 35px;
 }
-.dream h3{
+.dream h3, .experience h3{
     font-size: 20px;
 }
 .dream{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+/*Experience section*/
+.experience{
+    margin-top: 150px;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+}
+.experience h1{
+    text-align: center;
+    letter-spacing: 5px;
+}
+.experience-div1,
+.experience-div2{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    margin-bottom: 150px;
+ 
+}
+.experience p{
+    padding-bottom: 30px;
+}
+.experience-div1{
+    border-left: 10px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+}
+.experience-div2 {
+    border-left: 10px solid;
+    border-image: linear-gradient(cyan, skyblue);
+    border-image-slice: 1;
 }
